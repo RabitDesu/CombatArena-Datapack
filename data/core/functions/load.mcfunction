@@ -4,7 +4,7 @@ tellraw @a [{"translate":"datapack.load"}]
 
 scoreboard objectives add State dummy
 scoreboard objectives add Timer dummy
-scoreboard objectives add KillTimer dummy
+scoreboard objectives add DeathTimer dummy
 scoreboard objectives add Temporary dummy
 
 scoreboard objectives add PlayerID dummy
@@ -21,4 +21,4 @@ scoreboard objectives add Base.SPD dummy
 scoreboard objectives add Bonus.DMG dummy
 scoreboard objectives add Bonus.SPD dummy
 
-data merge storage combat_arena {macro:{}}
+data merge storage minecraft:combat_arena {macro: {}}

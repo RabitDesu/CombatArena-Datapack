@@ -1,3 +1,3 @@
-#> class:call
+#> combat:class/call
 
 $function class:$(id)/$(trigger)
