@@ -16,6 +16,6 @@
     }
   },
   "rewards": {
-    "function": "player:trigger/leftclick"
+    "function": "player:trigger/leftclick/_"
   }
 }

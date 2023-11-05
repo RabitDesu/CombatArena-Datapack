@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "combat:interaction/summon"
+    "function": "player:trigger/leftclick/summon"
   }
 }
