@@ -1,18 +1,14 @@
 {
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:player_hurt_entity",
       "conditions": {
-        "player": [
+        "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "equipment": {
-                "offhand": {
-                  "tag": "core:no_air"
-                }
-              }
+              "nbt": "{Tags:[\"LeftClick\"]}"
             }
           }
         ]
@@ -20,6 +16,6 @@
     }
   },
   "rewards": {
-    "function": "core:trigger/offhand"
+    "function": "player:trigger/leftclick"
   }
 }

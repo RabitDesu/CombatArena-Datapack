@@ -10,6 +10,6 @@
         }
     },
     "rewards": {
-        "function": "core:trigger/rightclick"
+        "function": "player:trigger/rightclick"
     }
 }

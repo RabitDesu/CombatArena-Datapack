@@ -1,0 +1,1 @@
+#> combat:class/1/set

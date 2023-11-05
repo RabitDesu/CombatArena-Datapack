@@ -1,7 +1,7 @@
-#> core:trigger/leftclick
+#> player:trigger/leftclick
 
 say leftclick
-advancement revoke @s only core:trigger/leftclick
+advancement revoke @s only player:trigger/leftclick
 
 execute if score $start State matches 0 run return 0
 
