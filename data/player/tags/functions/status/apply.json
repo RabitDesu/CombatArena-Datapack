@@ -1,0 +1,6 @@
+{
+    "values": [
+        "player:status/hp/get",
+        "player:status/agi/get"
+    ]
+}

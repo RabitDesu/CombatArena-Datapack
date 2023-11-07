@@ -3,4 +3,4 @@
 scoreboard players add $total PlayerID 1
 scoreboard players operation @s PlayerID = $total PlayerID
 
-effect give @s minecraft:saturation infinite 0 true
+attribute @s generic.knockback_resistance base set 1.0

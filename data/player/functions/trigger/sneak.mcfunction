@@ -1,6 +1,4 @@
-#> core:trigger/sneak
-
-execute if score @s sneak_time matches ..24 run return 0
+#> player:trigger/sneak
 
 data merge storage combat_arena {macro:{id:_,trigger:_}}
 execute store result storage combat_arena macro.id int 1 run scoreboard players get @s Class
