@@ -1,5 +1,6 @@
 # Idea List
 
 # Class
-1. Kenshi(Namae Bosyuuchuu)
-2. Wizard
+1. Crafter
+2. Warrior
+3. Wizard

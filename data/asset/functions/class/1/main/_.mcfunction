@@ -7,5 +7,5 @@
 
 # Damage process
     data modify storage lib: damage.dealt set value 4.0f
-    execute as @e[tag=Hit] run function lib:damage/_ with storage lib: damage
+    execute as @e[tag=Hit] at @s run function lib:damage/_ with storage lib: damage
     tag @e remove Hit

@@ -1,5 +1,5 @@
 #> core:load/score
-#  Set scoreboard object
+#  Load scoreboard object
 
 scoreboard objectives add Const dummy
 scoreboard objectives add Temp dummy
@@ -15,7 +15,7 @@ scoreboard objectives add sneaktime custom:sneak_time
 
 scoreboard objectives add Class dummy
 
-scoreboard objectives add HP dummy
+scoreboard objectives add HP health
 scoreboard objectives add HPMax dummy
 scoreboard objectives add AGI dummy
 
