@@ -1,4 +1,4 @@
-#> player:trigger/tick
+#> player:trigger/tick/_
 
 data remove storage global: macro
 

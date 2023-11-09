@@ -1,4 +1,4 @@
-#> player:class/2/leftclick
+#> asset:class/2/leftclick
 #  Leftclick trigger
 
-function player:class/2/main/_
+function asset:class/2/main/_

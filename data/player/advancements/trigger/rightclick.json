@@ -1,15 +1,21 @@
 {
-    "criteria": {
-        "requirement": {
-            "trigger": "player_interacted_with_entity",
-            "conditions": {
-                "entity": {
-                    "type": "interaction"
-                }
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"RightClick\"]}"
             }
-        }
-    },
-    "rewards": {
-        "function": "player:trigger/rightclick"
+          }
+        ]
+      }
     }
+  },
+  "rewards": {
+    "function": "player:trigger/rightclick/_"
+  }
 }

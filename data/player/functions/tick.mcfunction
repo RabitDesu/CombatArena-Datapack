@@ -1,6 +1,9 @@
 #> player:tick
 
-function player:trigger/tick
+execute if score @s join matches 1 run function player:join/_
+execute if score @s quit matches 1 run function player:quit/_
+
+function player:trigger/_
 function player:ui/_
 
 # Effects
