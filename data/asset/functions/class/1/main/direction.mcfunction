@@ -1,4 +1,4 @@
-#> player:class/1/main/direction
+#> asset:class/1/main/direction
 
 particle crit ^-1.299 ^ ^0.75
 particle crit ^-1.149 ^ ^0.964

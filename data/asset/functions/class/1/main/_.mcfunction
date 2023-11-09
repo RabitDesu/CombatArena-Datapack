@@ -1,9 +1,9 @@
-#> player:class/1/main/_
+#> asset:class/1/main/_
 #  Main process of main ability
 
 # Collision and direction process
-    execute anchored eyes rotated ~ 0 run function player:class/1/main/collision
-    execute anchored eyes rotated ~ 0 run function player:class/1/main/direction
+    execute anchored eyes rotated ~ 0 run function asset:class/1/main/collision
+    execute anchored eyes rotated ~ 0 run function asset:class/1/main/direction
 
 # Damage process
     data modify storage lib: damage.dealt set value 4.0f

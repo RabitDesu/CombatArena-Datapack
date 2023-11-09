@@ -1,0 +1,1 @@
+#> asset:class/1/main/tick
